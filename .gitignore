@@ -1,5 +1,12 @@
+# Compiled files
 bin/
-.settings/
 *.class
-*.log
-.metadata/
+
+# Eclipse files
+.settings/
+src/.classpath
+src/.project
+
+# OS junk
+.DS_Store
+Thumbs.db
