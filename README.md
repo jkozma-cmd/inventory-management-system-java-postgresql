@@ -89,22 +89,6 @@ Run `Main.java`
 
 ---
 
-## Configuration
-
-Update your database credentials in: DBConnection.java
-
-Example:
-
-```java
-
-private static final String URL = "jdbc:postgresql://localhost:5432/inventorydb";
-
-private static final String USER = "your_username";
-
-private static final String PASSWORD = "your_password";
-
----
-
 ## Project Structure
 
 InventoryApp/
@@ -122,3 +106,20 @@ InventoryApp/
 ├── screenshots/
 ├── README.md
 ├── .gitignore
+
+---
+
+## Configuration
+
+Update your database credentials in: DBConnection.java
+
+Example:
+
+```java
+
+private static final String URL = "jdbc:postgresql://localhost:5432/inventorydb";
+
+private static final String USER = "your_username";
+
+private static final String PASSWORD = "your_password";
+
